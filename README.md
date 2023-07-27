@@ -11,7 +11,7 @@ This repository sets up [Neovim](https://neovim.io/) with the [LazyVim](https://
   ```bash
   git clone https://github.com/paudrow/neovim-config ~/.config/nvim
   ```
-- For icons, install a compatable NerdFont
+- For icons, install a compatible NerdFont
   - For example:
     ```bash
     mkdir -p ~/.local/share/fonts
@@ -20,6 +20,7 @@ This repository sets up [Neovim](https://neovim.io/) with the [LazyVim](https://
   - Then run `fc-cache -f -v`
     - On Mac you may have to `brew install fontconfig` first
   - Set your terminal's editor to use the font
+- Install [lazygit](https://github.com/jesseduffield/lazygit)
 - Launch `nvim`
   - You have to use a terminal with rich color support for things to look correct
     - On Mac, iTerm works, but Terminal does not.
