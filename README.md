@@ -61,6 +61,7 @@ This is my configuration for [Neovim](https://neovim.io/) using [LazyVim](https:
 - [`./lua/config/lazy.lua`](./lua/config/lazy.lua) for adding lazy plugin packages
 - [`./lua/config/keymaps.lua`](./lua/config/keymaps.lua) for key mappings that are not plugin specific.
 - [`./lua/config/options.lua`](./lua/config/options.lua) for setting VIM options.
-- [`./lua/plugins/`] for loading additional plugins.
+- [`./lua/plugins/`](./lua//plugins) for loading additional plugins and setting their options.
+    - See merging rules [here](https://www.lazyvim.org/configuration/plugins#%EF%B8%8F-customizing-plugin-specs).
 - [`./after/plugin/`](./after/plugin/) for setting key maps after a plugin has been loaded.
 
